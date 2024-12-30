@@ -70,7 +70,10 @@ class _ProductsScreenState extends State<ProductsScreen> {
                   product.isFavorite ? Icons.favorite : Icons.favorite_border,
                   color: product.isFavorite ? Colors.red : null,
                 ),
-                onPressed: () => _toggleFavorite(product.id),
+                onPressed: () {
+                  _toggleFavorite(product.id);
+                  
+                },
               ),
             ),
           );
