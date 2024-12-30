@@ -1,5 +1,5 @@
 import 'package:favorites_app/logic/favorites_provider.dart';
-import 'package:favorites_app/screens/product.dart';
+import 'package:favorites_app/screens/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
